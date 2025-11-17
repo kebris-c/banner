@@ -125,6 +125,7 @@ typedef struct s_font_dict
 * Custom implementation of `ft_printf` (compatible with 42 projects)
 * Standard C library headers (`stdlib.h`, `unistd.h`, etc.)
 * ANSI color codes defined in `banner.h`
+* !!  With actual code, you will need to add my other project libft to the root of this one !!. If you don't it, you couldn't run ft_banner(). In addition, you could change dependence function as ft_strdup or ft_printf to the real one strdup or printf and include new headers if needed that contains that external functions.
 
 ---
 
